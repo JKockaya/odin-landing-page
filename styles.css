@@ -6,6 +6,8 @@
 
 body {
     font-family: Roboto, Helvetica, sans-serif;
+    display: flex;
+    flex-direction: column;
 }
 
 .header,
@@ -94,3 +96,111 @@ button {
 button.action-sign-up {
     border: 2px solid #F9FAF8;
 }
+
+div.information {
+    display: flex;
+    flex-direction: column;
+    height: 400px;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+}
+
+h2.information-header {
+    font-size: 32px;
+    font-weight: 900;
+    color: #1F2937;
+}
+
+.information-links {
+    display: flex;
+    gap: 30px;
+}
+
+.info-box {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+}
+
+div.info-image {
+    height: 100px;
+    width:100px;
+    border: 3px solid #3882F6;
+    border-radius: 10px;
+}
+
+.info-text {
+    text-align: center;
+    font-size: 10px;
+    font-weight: 100;
+    width: 100px;
+}
+
+.testimonial {
+    
+    background-color: #E5E7EB;
+}
+
+.test-cont {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 500px;
+    margin: auto;
+    height: 300px;
+}
+
+p.testimonial-quote {
+    font-size: 22px;
+    font-style: italic;
+    font-weight: 100;
+    
+}
+
+p.testimonal-reference {
+    font-weight: bold;
+    align-self: flex-end;
+    
+}
+
+div.call-to-action {
+    height: 300px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+div.call-box {
+    display: flex;
+    width: 700px;
+    justify-content: space-around;
+    background-color: #3882F6;
+    height: 75px;
+    color: #F9FAF8;
+    align-items: center;
+    border-radius: 10px;
+}
+
+.call-to-action-header {
+    font-weight: bold;
+}
+
+.call-to-action-text {
+    font-size: 12px;
+    font-weight: lighter;
+}
+
+.footer {
+    height: 65px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+p.footer-text {
+    font-size: 12px;
+}
+
